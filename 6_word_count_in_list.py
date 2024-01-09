@@ -3,5 +3,5 @@ input_string = input("Enter string: ")
 word_list = input_string.split()
 word_freq = [word_list.count(n) for n in word_list]
 
-print("List:\n {} \n".format(str(word_list)))
-print("Pairs (Words and Frequencies:\n {}".format(str(list(zip(word_list, word_freq)))))
+print("List:\n{}\n".format(str(word_list)))
+print("Pairs (Words and Frequencies: \n {}".format(str(list(zip(word_list, word_freq)))))
